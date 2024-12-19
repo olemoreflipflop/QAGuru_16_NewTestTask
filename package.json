@@ -1,0 +1,33 @@
+{
+  "name": "qaguru_16_newtesttask",
+  "version": "1.0.0",
+  "description": "Пробуем выполнять тестовые задания.",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "uiMode": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "testHeaded": "npx playwright test --headed",
+    "debug": "npx playwright test --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olemoreflipflop/QAGuru_16_NewTestTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olemoreflipflop/QAGuru_16_NewTestTask/issues"
+  },
+  "homepage": "https://github.com/olemoreflipflop/QAGuru_16_NewTestTask#readme",
+  "devDependencies": {
+    "@playwright/test": "1.49.1",
+    "@types/node": "22.10.2",
+    "allure-playwright": "3.0.5",
+    "dotenv": "16.4.5",
+    "prettier": "3.3.3",
+    "allure-commandline": "2.31.0"
+  }
+}
